@@ -21,7 +21,7 @@ This is a simple CRUD service built using FastAPI. The service allows you to man
 
 2. Navigate into the project directory: 
     ```bash
-   cd your_repository_name_name.git
+   cd your_repository_name
 
 3. Create a virtual environment and activate it:
     ```bash
