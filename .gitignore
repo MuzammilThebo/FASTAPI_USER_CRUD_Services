@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# VSCode and PyCharm files
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# SQLite database files (if using SQLite)
+*.sqlite3
+
+# Jupyter Notebooks checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Ignore database and credentials files
+*.db
+*.sqlite
+instance/
+
+# Local environment variables
+*.env
+
+# Ignore the `migrations` directory if using Flask-Migrate
+migrations/
+
+# Ignore mypy type checking cache
+.mypy_cache/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore compiled files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore pytest and testing output
+.cache/
+.tox/
+
+# If you use Docker
+docker-compose*.yml
+Dockerfile
+.dockerignore
